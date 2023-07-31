@@ -17,35 +17,15 @@ from collections import OrderedDict
 
 # -----Adobe Launch configuration-----
 
-config1=launchpy.configure(
-  org_id = 'CEE1F70B5936D5B30A495EA3@AdobeOrg',
-  tech_id = 'DB7127D864657DB30A495FD5@techacct.adobe.com',
-  secret = 'p8e-bTtRHPb6jVMeDojSBr253JeIElQHfKLK',
-  client_id = '4e1581a3fcc94c2795f16f30b850f3c6',
-  private_key ="""-----BEGIN PRIVATE KEY-----
-MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCwzdAcsVa2xa9QIYkkkr4d3ddc
-MMa2S4RjQnyqdlSc9iC7iQKxkSWMXRWYLE/UW7mqlTMpXv/WYc5p5Om+usSYC/ZspGBRwBBS8LzY
-GwbdxFs1OQjwbUkV/1Z7d2WODtNPKWeRJLaxzd/n0DvBgNL0PYG780Bf+kth5SwlDuoSOafZLo5i
-m2yp42bwIXyxh1LlLnK3UGC4DdE+voeuIrMlGAwisQMFDhulihTZ0UMqrKeAZDbG8cGKoPyBIdhX
-YZtLJaYn4PbE/7voQuFywtdq9wiJUK6xyJrTU2n+5lHvKxjrofrwX1qPnY7o11Ct+0pFEg8SHtUs
-uTtLA8REgEpnAgMBAAECggEATwIiEnhjJjkP/1CFLy1OPR2CHEYFvrffeNXgzPIlHKFWfkebRwt0
-SpXcTQzcPashvKuA2eeEj2JUsfikReHDcajC3cjU7CNWiCHhWfc16ctR8OZEauCDbQuWM4VnAgT5
-A+KeT/umkq1L9hUVZwLxAkksHPf2mA1LO3uEbykLi8mtiIDvZwjBqhZmgCf3Axd2iixUOIUBscEj
-5AAfmbmIxkiYr91DVptqUpdsmRKcm7UlkMlmGZbF6CN4njAsPq87gveEhL3bJToninHfG/qYEd2y
-AuqAIeWhNShBbF/05PCG7VDaWf1qJYv4y5xZmFS2WoW5UdKE7Zd6dH6s+TpHXQKBgQC8vjlS0Ptp
-sl2Xp5zrDGRZ8w+uv9lrqzwvsN8Cx2ainV5XqK8gY+vz+ITmim0Zc92JYc23sL0RNA3s2VC2lAER
-4WGJLySVlQMZdxDYiXOsfNKbIN1PWbrrrZyWm/vtphLw2IOx1xYZU9wpvj9WaXhXHwcH8/wv0XSa
-sjJCBJMMzQKBgQDvzna2hNSztQgvMidZ2oqW/qf/1RDiT5uQt6SZFyspRhjupB1C0stj4YotUogq
-ntImAk9wohsdy+9tbzXmv38GQys+CHZhgFwd9HIdxO0tl6DG3ENbP+UQEUuDaWgxcovDy/L641Qe
-dO9m0nacTD6swOFSBnhJMl+AeALsWOO0AwKBgFK6tnmcbHbZ3bg5mchVOC9NINSh9vUAq3Lj/fxD
-1rL0c4PMxmZWJfhcODSs/EEpzjMHkZowd87wmCH25zAAE6/4sD3nUgvWsvMYg2PGa9NxKwcgEqFT
-XWEsSfSiDn0OTEMRRDhRZLhZT6lkYHLJ7BuT2AseYK29C3U7IlhZlPMJAoGAD6DF7ckkT33ZxbGg
-DOQIKiT4b9zD1+vWOI0vRebTokH2N/8sBQHVzXGSXrfFNfnZui5mXPHDkKKMvPYFbj9GmPLhq45D
-oMELv8wBb904k8MQ8ETEgvrcA7sMz8ibyLUtVJpDAIS2I7H9NBc9MZxqbTm4tW7EggitXqLzldGJ
-LV8CgYB2WXQzH/1Zu9gI3gYFpX1opD7Wo3wdAvA1FIB151zPE94PsDTfPbNIRhJJzAh03HeKgmuq
-qUAbHIVzvJPtilP3Q3/iIZEnT6yYQsuclehioYstBmLOxA+dE3aefKytyD7iD90TBFo2IJBBgLAV
-kS7oELShkogiPilP6ARYF6ZXlg==
------END PRIVATE KEY-----"""
+
+login1.configure(
+    org_id=my_org_id,
+    tech_id=my_tech_id, 
+    secret=my_secret,
+    private_key=my_key_as_string,
+    client_id=my_client_id,
+    environment="prod",
+    sandbox=my_sandbox
 )
 # -----Adobe Launch configuration----- End
 
