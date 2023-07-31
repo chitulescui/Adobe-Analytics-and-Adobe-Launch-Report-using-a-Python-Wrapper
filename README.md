@@ -6,8 +6,8 @@ create a document with all those details to have a better overview about the imp
 Gaining access to the whole data we first have to create a project in Adobe Developer Console, to ensure the connection using JWT authentification method and then connect to Adobe Launch API via a Python Wrapper. 
 The documentation about the Python Wrapper can be found here: https://github.com/pitchmuc/aepp/blob/main/docs/getting-started.md
 
-* **First Step** : Create the configuration file to ensure the connectivity to Launch and Analytics API
-* **Second Step** : Retrieve a JSON file which will contain the entire data via Python Wrapper
-* **Third Step**: Parse the data and search for the name of the rules and everything that is inside of them
-* **Forth Step** : Extract all the information and compare it to our templates (**SDR_OK.xlsl & BluePrint.py**)
-* **Fifth Step**: : Create an xlsl document with the same structure as in **Report Example.xlsx**
+* **First Step** : Create the configuration file to ensure the connectivity to **Launch and Analytics API**
+* **Second Step** : Retrieve a JSON file containing whole data via **Python Wrapper**
+* **Third Step**: Parse the data and look for the Rules`s **name/dataElements/props/events/customCod**e
+* **Forth Step** : Extract all the information and compare it to a template (**SDR_OK.xlsl & BluePrint.py**)
+* **Fifth Step**: : Create an xlsl document with the same structure as **Report Example.xlsx**
