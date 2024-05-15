@@ -243,12 +243,6 @@ for cheie1,valoare2 in dict_aux.items():
         dict_final[cheie1] = {"Rule Name": big_dict[cheie1]["Rule Name"], "Details": dict_aux[cheie1]}
 #----- Creating dict_final-----End
 
-
-
-
-
-
-
 # -----Appending custom code to the main dictionary------
 pattern_main = re.compile(r's.eVar\d+ = [^;]+')
 for i,j in dict_custom_setup.items():
@@ -429,19 +423,6 @@ for i in range(len(dict_final)+1):
 # -----Comparation to blueprint for rules------End
 
 # -----Comparation to blueprint for eVars------
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # -----Creating the final excel file-----
 list_rules=[]
